@@ -1,0 +1,16 @@
+PODS:
+  - AANavigationItem (0.1.0)
+
+DEPENDENCIES:
+  - AANavigationItem (from `../`)
+
+EXTERNAL SOURCES:
+  AANavigationItem:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AANavigationItem: 620f4b84b4be24bdcc2ab4e86995807211c6abe0
+
+PODFILE CHECKSUM: ff4f3b0777171fff554de201230b3d21fcabb090
+
+COCOAPODS: 1.3.1

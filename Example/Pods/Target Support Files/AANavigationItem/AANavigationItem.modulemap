@@ -1,0 +1,6 @@
+framework module AANavigationItem {
+  umbrella header "AANavigationItem-umbrella.h"
+
+  export *
+  module * { export * }
+}

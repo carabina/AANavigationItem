@@ -1,0 +1,6 @@
+framework module Pods_AANavigationItem_Tests {
+  umbrella header "Pods-AANavigationItem_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
