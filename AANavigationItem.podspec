@@ -1,42 +1,23 @@
-#
-# Be sure to run `pod lib lint AANavigationItem.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'AANavigationItem'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AANavigationItem.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'AANavigationItem - custom color, size and subviews per item in UINavigationController.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Simple changing color UINavigationBar! 
+  Just select it in AANavigationItem and run. Additionaly you can increase size of bar and add subviews.
+  All are animatable and support interaction transiotions.
                        DESC
 
-  s.homepage         = 'https://github.com/Anton Spivak/AANavigationItem'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/oboupo/AANavigationItem'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Anton Spivak' => 'oboupo@gmail.com' }
-  s.source           = { :git => 'https://github.com/Anton Spivak/AANavigationItem.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/oboupo/AANavigationItem.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/oboupo'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AANavigationItem/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AANavigationItem' => ['AANavigationItem/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files          = 'AANavigationItem/Classes/**/*'
+  s.private_header_files  = 'AANavigationItem/Classes/Private/**/*.h'
+  s.frameworks            = 'UIKit'
 end
